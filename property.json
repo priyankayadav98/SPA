@@ -1,0 +1,12 @@
+{"records":[
+    {"house_no":101, "name":"Ranu housing", "contact":9078563412, "room":2, "address":"Kolkata"},
+    {"house_no":102, "name":"Priya comfy", "contact":7856345623, "room":2, "address":"Delhi"},
+    {"house_no":103, "name":"Divya apartment", "contact":7890563412, "room":3, "address":"Bangalore"},
+    {"house_no":104, "name":"ayush villa", "contact":7856346789, "room":3, "address":"Chennai"},
+    {"house_no":105, "name":"manish niwas", "contact":2312456789, "room":1, "address":"Rajasthan"},
+    {"house_no":106, "name":"Shinchan penthouse", "contact":8990674523,"room":4, "address":"Kolkata"},
+    {"house_no":107, "name":"krishna niwas", "contact":8956789023, "room":5, "address":"Sultanpur"},
+    {"house_no":108, "name":"Abhimanyu house", "contact":7856341245, "room":2, "address":"Ahmedabad"},
+    {"house_no":109, "name":"Simbhu duplex", "contact":7856341245,"room":4, "address":"Warley"},
+    {"house_no":109, "name":"Kathleen ghar", "contact":7856341289,"room":4, "address":"Madrid"}
+]}
