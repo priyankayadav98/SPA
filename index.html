@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang ="en" ng-app="rent" ng-controller="myctrl">
+    <head>
+        <title>House Renting Management</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular-route.min.js"></script>
+<script src="script.js"></script>
+      
+    </head>
+  <body>
+        <header>
+            <div class = "top-header">
+                <div class = "logo">
+                    <h1>YOUR HOME.</h1>
+                </div>
+                <div class="topnav">
+                    <a href = "#/properties">Properties</a>
+                    <a class="active" href="#">Login</a>
+                    <a href="#news">Gallery</a>
+                    <a href="#/housing">Housing</a>
+                    <a href="#/home">Home</a>
+                    </div>
+                </div>
+            </header>
+
+
+                <td>
+<ng-view></ng-view>
+</td>
+
+
+
+
+</body>
+</html>
