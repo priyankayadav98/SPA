@@ -8,15 +8,18 @@ angular.module("rent",['ngRoute'])
     }).when('/home',
     {
         templateUrl:'mypage/home.html',
-        controller:'homectrl'}).when('/home/:first/:last',
-        {
-            templateUrl:'mypage/home.html',
-            controller:'homectrl'
-    }).when('/housing' ,
+        controller:'homectrl'}).when('/housing' ,
     {
         templateUrl:'mypage/housing.html',
         controller:'housingctrl'
-    })
+    }).when('/signin',
+    {
+        templateUrl:'mypage/signin.html',
+        controller:'signinctrl'}).when('/signin/:first/:last',
+        {
+            templateUrl:'mypage/signin.html',
+            controller:'signinctrl'
+    });
 
 
 
@@ -46,4 +49,16 @@ angular.module("rent",['ngRoute'])
     {
         $scope.variable = response.records;
     });
+})
+.controller("signinctrl",function($scope,$routeParams)
+{
+    $scope.message="WELCOME"
+    if($routeParams.first && $routeParams.last )
+    {
+        $scope.person = 
+        {
+            first:$routeParams.first,
+            last:$routeParams.last
+        };
+    }
 });
